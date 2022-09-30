@@ -6,7 +6,7 @@ for i in range (0,4,1):
     suma=suma+lista[i]
 prom=suma/4
 print(lista)
-print(f"el promedio de las 4 notas es {prom}")
+print(f"el promedio de las 4 notas es {prom} ")
 if 0.0<=prom<=2.9:
     print("Reprobaste la asignatura")
 elif 3.0<=prom<=4.0:
