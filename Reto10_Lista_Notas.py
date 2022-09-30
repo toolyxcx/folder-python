@@ -13,4 +13,5 @@ elif 3.0<=prom<=4.0:
     print("Pasaste raspando la asignatura") 
 elif 4.0<=prom<=5.0:
     print("Aprobaste con buenos resultados")
+
     

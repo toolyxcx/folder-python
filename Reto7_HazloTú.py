@@ -7,6 +7,7 @@ for i in range (0,4,1):
     Notas=Notas+Nota
     Cantidad=Cantidad+1
 
+
 Promedio=Notas/Cantidad
 print("El promedio de la nota es", Promedio)
 
@@ -20,6 +21,14 @@ elif 3.0<=Promedio<=3.9:
 
 elif 4.0<=Promedio<=5.0:
     print("Aprobaste con buenos resultados")
+
+elif Nota>5:
+    print("datos incorrectos")
+
+else:
+    print("ingreso un valor invalido")
+
+
 
 
 
